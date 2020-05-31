@@ -1,0 +1,31 @@
+﻿@model IEnumerable<MvcGarageStore.Models.Vehicle>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<h2>Recent Updates</h2>
+
+
+<p>The @Model.Last().Model @Model.Last().Type and 
+    @Model.ToList()[@Model.Count() - 2].Model @Model.ToList()[@Model.Count() - 2].Type
+     are now available in Car List.</p>
+
+<p>
+	<img style="border: 0px none; margin-top: 0px; margin-bottom: 0px;"
+         title="@Model.Last().Model @Model.Last().Type" src="/images/cars/@Model.Last().ImageUrl"
+         alt="@Model.Last().Model @Model.Last().Type" width="100" height="50" />
+
+    <img style="border: 0px none; margin-top: 0px; margin-bottom: 0px;"
+        title="@Model.ToList()[@Model.Count() - 2].Model @Model.ToList()[@Model.Count() - 2].Type" src="/images/cars/@Model.ToList()[@Model.Count() - 2].ImageUrl"
+        alt="@Model.ToList()[@Model.Count() - 2].Model @Model.ToList()[@Model.Count() - 2].Type" width="100" height="50" />
+</p>
+
+
+<div class="post-footer"></div>
+
+<h2>Updates</h2>
+		
+<p>We have updated our website vehicles collection check them out in the store.</p>
+<p>Review production and concept models from lots of categories.</p>

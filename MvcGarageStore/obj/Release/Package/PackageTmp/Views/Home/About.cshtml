@@ -1,0 +1,83 @@
+﻿@model MvcGarageStore.Models.Contact
+
+@{
+    ViewBag.Title = "About";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<article>
+    <p>
+		We are always aspiring towards the highest standards of service 
+		and want to hear about your experience with us.
+	</p>
+    <p>
+		Our customer service department will gladly accept your comments or suggestions. 
+		Simply fill the enclosed form and we will respond as soon as possible.
+	</p>
+</article>
+
+<article>    
+
+@Html.ActionLink("Contact List", "ContactList", "Home")
+
+@if (ViewBag.sentContact)
+{
+     <h4>Thank you for contacting us.</h4>
+     <h4>We will contact you soon.</h4>
+}
+else
+{   
+    <h2>Contact Us</h2>
+    using (Html.BeginForm()) {
+        @Html.ValidationSummary(true)
+
+        <fieldset>
+            <legend>Contact Us</legend>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.FullName)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.FullName)
+                @Html.ValidationMessageFor(model => model.FullName)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.PhoneNumber)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.PhoneNumber)
+                @Html.ValidationMessageFor(model => model.PhoneNumber)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Email)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Email)
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Massage)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Massage, new { style="width:50px;" })
+                @Html.ValidationMessageFor(model => model.Massage)
+            </div>
+
+            <p>
+                <input type="submit" value="Send" />
+            </p>
+        </fieldset>
+    }
+}
+</article>
+
+@section Scripts {
+   
+}

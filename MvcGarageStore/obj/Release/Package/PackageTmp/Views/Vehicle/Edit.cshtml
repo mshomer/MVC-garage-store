@@ -1,0 +1,119 @@
+﻿@model MvcGarageStore.Models.Vehicle
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    @Html.AntiForgeryToken()
+    <fieldset>
+        <legend>Edit Vehicle</legend>
+
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Model)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Model)
+            @Html.ValidationMessageFor(model => model.Model)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Type)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Type)
+            @Html.ValidationMessageFor(model => model.Type)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Price)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Price)
+            @Html.ValidationMessageFor(model => model.Price)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EngineType)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.EngineType)
+            @Html.ValidationMessageFor(model => model.EngineType)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EngineCapacity)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.EngineCapacity)
+            @Html.ValidationMessageFor(model => model.EngineCapacity)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Automatic)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Automatic)
+            @Html.ValidationMessageFor(model => model.Automatic)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ImageUrl)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ImageUrl)
+            @Html.ValidationMessageFor(model => model.ImageUrl)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DateRelease)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DateRelease)
+            @Html.ValidationMessageFor(model => model.DateRelease)
+        </div>
+
+                <div class="editor-label">
+            @Html.LabelFor(model => model.Doors)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Doors)
+            @Html.ValidationMessageFor(model => model.Doors)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Color)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Color)
+            @Html.ValidationMessageFor(model => model.Color)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Kilometer)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Kilometer)
+            @Html.ValidationMessageFor(model => model.Kilometer)
+        </div>
+
+        @Html.HiddenFor(model => model.CategoryId)
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "List")
+</div>
+
+@section Scripts {
+    
+}

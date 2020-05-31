@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr") 
+    </head>
+    <body>
+       <!-- This Menu Style Brought By A Menu Generator  -->
+        <div id="nav">
+    	    <div class="container">
+    		    <div class="menu_container">
+    			    <img id="menu_bg" src="~/Images/bg.jpg" width="980px" height="201px" alt="menu" />
+                    <img id="menu_bg_new" src="~/Images/menu_bg.png" alt="menu" />
+    			    <div class="menu_content">
+    				    <div class="menu_content_in">
+    				        <div class="menu_item sel_menu">
+    						    <div class="menu_item_icon">
+    							    <img class="img_icon" src="~/Images/menu-icons/menu-home-icon.png" alt="home" />
+    						    </div>
+    						    @Html.ActionLink("Home", "Index", "Home")
+    					    </div>
+    					    <div class="menu_item ">
+    						    <div class="menu_item_icon">
+    							    <img class="img_icon" src="~/Images/menu-icons/menu-info-icon.png" alt="about" />
+    						    </div>
+    						    @Html.ActionLink("About", "About", "Home")
+    					    </div>
+    					    <div class="menu_item ">
+    						    <div class="menu_item_icon">
+    							    <img class="img_icon" src="~/Images/menu-icons/manager-24.png" alt="contact" />
+    						    </div>
+    						    @Html.ActionLink("Contact", "Contact", "Home")
+    					    </div>
+    					    <div class="menu_item ">
+    						    <div class="menu_item_icon">
+    							    <img class="img_icon" src="~/Images/menu-icons/search-3-24.png" alt="list" />
+    						    </div>
+    					        @Html.ActionLink("Store", "List", "Vehicle")
+    					    </div>
+    					    <div class="menu_item ">
+    						    <div class="menu_item_icon">
+    							    <img class="img_icon" src="~/Images/menu-icons/view-details-24.png" alt="cart summary" />
+    						    </div>
+    						    @{Html.RenderAction("CartSummary", "ShoppingCart");}
+    					    </div>
+    					    <div class="menu_item_blank root" style="display:none;">
+
+    					    </div>
+    					    <div class="menu_item root" style="display:none;">
+    						
+    					    </div>
+    					    <div class="menu_item root">
+    						     @if(User.IsInRole("Admin"))
+                                 {
+                                    <div class="menu_item_icon" >
+    							        <img class="img_icon" src="~/Images/menu-icons/management.png" alt="categories" />
+    						        </div>
+    						        @Html.ActionLink("Categories", "Index", "Category")
+                                 }
+    					    </div>
+    					    <div class="clear"></div>
+    				    </div>
+                        <br />
+                        <section id="login">
+                            @Html.Partial("_LoginPartial")
+                        </section>
+    			    </div>              
+    		    </div>
+    	    </div>
+        </div>
+
+	
+      
+        <div id="body">
+
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                <div class="leftcolumn">
+                    @{Html.RenderAction("CategoryMenu", "Category");}
+                </div>
+                <div class="content">
+                    @RenderBody()
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; 2014 - Matan Shomer ASP.NET MVC Application</p>
+                </div>
+            </div>
+        </footer>
+ 
+        @Scripts.Render("~/bundles/garageStore") 
+        @RenderSection("scripts", required: false)
+
+        <!-- Script Of The Menu -->
+        <script type="text/javascript">
+            $(function () {
+                $('.menu_item').mouseenter(
+                    function () {
+                        $(this).addClass("menu_item_hover");
+                    }).mouseleave(
+                    function () {
+                        $(this).removeClass("menu_item_hover");
+                    }).mousedown(
+                    function () {
+                        $(".menu_item").removeClass("sel_menu");
+                        $(this).addClass("sel_menu");
+                        $(this).find('a')[0].click();
+                    });
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,80 @@
+﻿.clear {clear:both; height:0px; overflow:hidden; font-size:0px; line-height:0px;}
+.L {float:left;}
+.R {float:right;}
+
+.oneItem{ width: 760px;border: 1px solid #cdcdcd;position: relative;margin-top: 10px;min-height: 114px; margin:auto; direction:ltr;}
+.oneItem .carSample {width: 145px;margin: 5px 15px 5px 15px;display: inline-block;float: left;}
+.oneItem .carSample a {width: 145px;position:relative;display:inline-block;}
+.oneItem .carSample img {cursor:default; height:109px; width:144px;}
+.oneItem .itemDesc{ width: 337px; height: 105px; margin-right: 25px; margin-top: 0px; font-size: 14px; display:inline-block; }
+.oneItem .itemDesc H3{ font-weight: bold; font-size: 18px; margin-bottom: 5px;}
+.oneItem .itemDesc .km{ margin-top: 5px;}
+.oneItem .itemDesc .engine{margin-top: 5px;}
+.oneItem .itemDesc .moreDetails { margin-top: 10px; color:#0062c8;display:inline-block;}
+.moreDetailsLink {cursor:pointer;}
+.oneItem .itemDesc .moreDetails div.moreDetailsLink {cursor:pointer;display:inline-block;width:130px;text-align:right;}
+.oneItem .itemDesc .moreDetails .downBlueArrow {margin-left:10px; width: 15px; height: 15px; background-image: url('images/downbluearrow.jpg')}
+.oneItem .itemDesc .moreDetails SPAN { font-weight: bold;}
+.oneItem .LeftDescItem {display:inline-block; margin-bottom:5px;}
+.oneItem .LeftDescItem .price {color:#4D4D4D;font-size: 20px; height:28px; text-align: left; font-weight: bold; margin-top: 50px; margin-left: 20px;}
+.price {color:#4D4D4D;font-size: 24px;  text-align: left; font-weight: bold; }
+.price span {font-size:18px;}
+.oneItem .LeftDescItem .getDeal{ cursor:pointer; background: url('images/getdeal.png') no-repeat;width: 166px;height: 33px;float: left;margin-left: 15px;}
+.LargeItem {position:relative; width: 760px; height: 315px; border:1px solid #0062c8; margin-top: 10px;display:none; margin:auto; direction:ltr;}
+.LargeItem .picWpr { margin: 10px;}
+.LargeItem .picWpr .carSample {display:inline-block;position:relative;}
+.LargeItem .picWpr .carSample IMG { width: 275px; height:208px; cursor:pointer;}
+.LargeItem .picWpr .carsSamples {margin-top:5px;}
+.LargeItem .picWpr .carsSamples IMG { width: 59px; height: 46px;display:inline-block;cursor:pointer;opacity:0.5;filter:alpha(opacity=50);}
+.LargeItem .picWpr .carsSamples IMG.currentImg {opacity:1;filter:alpha(opacity=100);}
+.LargeItem .picWpr .carsSamples .lilcar{ margin-left: 5px;margin-top: 5px;}
+.LargeItem .itemDesc{ width: 400px;  margin-right: 25px; margin-top: 5px; font-size: 14px;  }
+.LargeItem .itemDesc H3{ font-weight: bold; font-size: 18px; margin-bottom: 3px;}
+.LargeItem .itemDesc .look{ font-weight: bold; margin-top: 3px; margin-bottom: 1px;font-size: 14px;}
+.LargeItem .detailsLargeRight{ border-left:1px solid #cdcdcd; padding-left: 15px;}
+.LargeItem .detailsLargeRight TABLE TR TD{padding-right: 25px; padding-bottom:3px; font-size:13px}
+.LargeItem .detailsLargeRight TABLE TR TD:first-child{font-weight:bold;}
+.LargeItem .detailsLargeLeft{ padding-left: 15px;}
+.LargeItem .detailsLargeLeft TABLE TR TD{padding-left: 0px; padding-bottom:3px; font-size:13px}
+.LargeItem .detailsLargeLeft TABLE TR TD:first-child{font-weight:bold;}
+.bottomLargeDetails {display:block; width: 400px; height: 85px;float:left;margin-left:15px;margin-top: 25px;}
+.LargeItem .bottomLargeDetails .iconsDetails .icon{ width: 10px; height: 10px; background-color: Green;}
+.LargeItem .bottomLargeDetails .LeftDescItem .getDeal{ cursor:pointer; background: url('images/getdeal.png') no-repeat;width: 166px;height: 33px;margin-top: 7px;float: left}
+.closeIcon {cursor:pointer;position: absolute;right: 10px;top: 10px;display: block; }
+
+.year { font-weight:bold; }
+
+.button-link {
+    padding: 10px 15px;
+    background: #4479BA;
+    color: #FFF;
+    font-size: 20px;  
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+     text-decoration: none;
+}
+.button-link:hover {
+    background: #356094;
+    border: solid 1px #2A4E77;
+    color:White
+}
+.button-link:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #2E5481;
+    border: solid 1px #203E5F;
+}

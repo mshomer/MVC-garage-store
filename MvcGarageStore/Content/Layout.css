@@ -1,0 +1,19 @@
+﻿#nav {width: 100%; height: 202px;}
+.container { width:980px;margin:0px auto;}
+.menu_container {position: relative; width: 100%;}
+.menu_container #menu_bg {position: absolute; top: 0; left: 0; z-index: 2;}
+.menu_container #menu_bg_new {position: absolute; top: 135px; left: 0; z-index: 3;}
+.menu_content {position: absolute; top: 135px; left: 0; z-index: 200; width: 100%; height: 78px;  direction: ltr;}
+.menu_content_in {padding-left: 41px;}
+
+
+.menu_item {float: left; text-align: center; width: 112px; padding-top: 10px; cursor: pointer;height: 56px; margin-left: 0px; position: relative;}
+.menu_item_blank {float: left; text-align: center; width: 112px; padding-top: 10px; height: 56px; margin-left: 0px; position: relative;}
+.menu_img_icon {position: absolute; top: 0; left: 0;}
+.menu_item_icon {height: 25px;}
+.menu_item a {color: White; text-decoration:none;}
+.menu_item a:hover {color:white; text-decoration:none; background:none;}
+.sel_menu {height: 78px !important; background: url(../Images/menu-slct.png) no-repeat;}
+.menu_item_hover {height: 78px !important; background: url(../Images/menu-slct.png) no-repeat;}
+
+

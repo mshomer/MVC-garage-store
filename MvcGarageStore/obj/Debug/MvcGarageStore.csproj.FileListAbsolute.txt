@@ -1,0 +1,109 @@
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\obj\Debug\MvcGarageStore.csprojResolveAssemblyReference.cache
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\MvcGarageStore.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\MvcGarageStore.pdb
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\Antlr3.Runtime.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.Core.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\EntityFramework.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\Newtonsoft.Json.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Net.Http.Formatting.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.Helpers.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.Http.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.Http.WebHost.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.Mvc.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.Optimization.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.Razor.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.WebPages.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\WebGrease.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\WebMatrix.Data.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\WebMatrix.WebData.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\EntityFramework.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\Newtonsoft.Json.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Net.Http.Formatting.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.Helpers.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.Http.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.Http.WebHost.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.Mvc.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.Razor.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.WebPages.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\WebMatrix.Data.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\WebMatrix.WebData.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.Core.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\obj\Debug\MvcGarageStore.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\obj\Debug\MvcGarageStore.pdb
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\PagedList.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\PagedList.Mvc.dll
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\PagedList.xml
+C:\Users\mshomer\documents\visual studio 2012\Projects\MvcGarageStore\MvcGarageStore\bin\PagedList.Mvc.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\MvcGarageStore.dll.config
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\MvcGarageStore.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\MvcGarageStore.pdb
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\Antlr3.Runtime.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.Core.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\EntityFramework.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\Newtonsoft.Json.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\PagedList.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\PagedList.Mvc.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Net.Http.Formatting.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.Helpers.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.Http.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.Http.WebHost.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.Mvc.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.Optimization.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.Razor.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.WebPages.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\WebGrease.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\WebMatrix.Data.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\WebMatrix.WebData.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\PagedList.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\PagedList.Mvc.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\EntityFramework.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\Newtonsoft.Json.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Net.Http.Formatting.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.Helpers.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.Http.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.Http.WebHost.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.Mvc.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.Razor.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.WebPages.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\WebMatrix.Data.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\WebMatrix.WebData.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.Core.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\obj\Debug\MvcGarageStore.csprojAssemblyReference.cache
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\obj\Debug\MvcGarageStore.csproj.CoreCompileInputs.cache
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\obj\Debug\MvcGarageStore.csproj.CopyComplete
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\obj\Debug\MvcGarageStore.dll
+C:\Users\Shomer\Downloads\MvcGarageStore\MvcGarageStore\obj\Debug\MvcGarageStore.pdb

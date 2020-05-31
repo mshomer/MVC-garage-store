@@ -1,0 +1,57 @@
+﻿@model IEnumerable<MvcGarageStore.Models.Contact>
+
+@{
+    ViewBag.Title = "ContactList";
+}
+
+<h2>Contact List</h2>
+
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FullName)
+        </th>
+        <th>|</th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </th>
+        <th>|</th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>|</th>
+        <th>
+            @Html.DisplayNameFor(model => model.Massage)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FullName)
+        </td>
+        <td></td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneNumber)
+        </td>
+        <td></td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td></td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Massage)
+        </td>
+        <td></td>
+        <td>
+            @if(User.IsInRole("Admin"))
+            {
+                @Html.ActionLink("Delete", "DeleteContact", new { id=item.Id })
+            }
+        </td>
+    </tr>
+}
+
+</table>

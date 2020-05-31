@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Vehicle>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List Of Vehicles</h2>
+
+<p>
+    @if(User.IsInRole("Admin"))
+    {
+        @Html.ActionLink("Create New Vehicle", "Create")
+    }
+</p>
+
+
+@Html.Partial("_VehicleList", @Model)

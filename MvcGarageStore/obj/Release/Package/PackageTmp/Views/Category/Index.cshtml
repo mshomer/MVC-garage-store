@@ -1,0 +1,33 @@
+﻿@model IEnumerable<MvcGarageStore.Models.CategoryListViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Category List</h2>
+
+<p>
+    @if(User.IsInRole("Admin"))
+    {    
+        @Html.ActionLink("Create New", "Create")
+    }
+</p>
+
+
+@foreach (var item in Model)
+{
+    <div>
+        <h4>@Html.DisplayNameFor(model => model.Name):  @Html.DisplayFor(modelItem => item.Name)</h4>
+        <div>@Html.DisplayNameFor(model => model.Description):  @Html.DisplayFor(modelItem => item.Description)</div>
+        <div>@Html.DisplayNameFor(model => model.CountOfVehicles):  @Html.DisplayFor(modelItem => item.CountOfVehicles)</div>
+        @if(User.IsInRole("Admin"))
+        {
+            <div>
+                 @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                 @Html.ActionLink("Vehicles", "Index", "Vehicle", new { id=item.Id }, null) |
+                 @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            </div>
+        }
+    </div>
+}
+

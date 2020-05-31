@@ -1,0 +1,209 @@
+﻿@model IPagedList<Vehicle>
+
+@{
+    int index = 0;
+}
+
+<div id="vehicleList">
+
+<div class="pagedList" data-search-target="#vehicleList">
+    @Html.PagedListPager(Model, Page => Url.Action("List", new { Page }),
+    PagedListRenderOptions.MinimalWithItemCountText)
+</div>
+
+
+@foreach (var item in Model)
+{
+       
+    <div class="doubleItem">
+        <div class="oneItem">
+			<div class="carSample">     
+				<br>
+				 <img src="/images/cars/@Html.DisplayFor(modelItem => item.ImageUrl)" 
+                    alt="@Html.DisplayFor(modelItem => item.Model) @Html.DisplayFor(modelItem => item.Type)" />
+			</div>
+			<div class="itemDesc">
+				<h3>@Html.DisplayFor(modelItem => item.Model)  @Html.DisplayFor(modelItem => item.Type)</h3>
+				<div class="year">@Html.DisplayFor(modelItem => item.DateRelease) </div>
+				<div class="km">Kilometer :   @Html.DisplayFor(modelItem => item.Kilometer)  km</div>
+				<div class="engine">Engine Capacity :  @Html.DisplayFor(modelItem => item.EngineCapacity)</div>
+				<div class="category">Category :  @Html.DisplayFor(modelItem => item.CategoryId)</div>
+				<div class="moreDetails">
+					<div class="R moreDetailsLink" onclick="moreDetails(@index)">
+						<span class="downBlueArrow R"></span>
+						View Car Details
+					</div>
+				</div>
+			</div>
+			<div class="LeftDescItem">
+				@if(User.IsInRole("Admin"))
+                {
+                    <div class="price" dir="ltr">
+					     @Html.DisplayFor(modelItem => item.Price)) ₪ <span>Per Day</span>
+				    </div>
+                    <div style="padding-left:8px;" dir="ltr">
+                        @Html.ActionLink("Rent", "Rent", new { id=item.Id }) |
+                        @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id=item.Id }) 
+                    </div>
+			    }
+                else
+                {
+                    <div class="price" style="padding-left:500px; padding-bottom:30px" dir="ltr">
+					    @Html.DisplayFor(modelItem => item.Price) ₪ <span>Per Day</span>
+                        @Html.ActionLink("Rent", "Rent", new { id=item.Id } , new { @class = "button-link" }) 
+                    </div>  
+                }
+            </div>
+		</div>
+        <div class="LargeItem">
+			<span class="closeIcon" onclick="lessDetails(@index)"><a>Close</a></span>
+			<div class="picWpr L">
+				<div class="carSample">
+					<img src="/images/cars/@Html.DisplayFor(modelItem => item.ImageUrl)" 
+                    alt="@Html.DisplayFor(modelItem => item.Model) @Html.DisplayFor(modelItem => item.Type)" />
+				</div>
+			   
+			</div>
+
+			<div class="descLargeLeft L">
+				<div class="itemDesc R">
+					<h2>@Html.DisplayFor(modelItem => item.Model)  @Html.DisplayFor(modelItem => item.Type)</h2>
+					<div class="year">@Html.DisplayFor(modelItem => item.DateRelease)</div>
+					<div class="look">
+						Car Information:
+					</div>
+					<div class="detailsLargeRight R">
+						<table>
+							<tr>
+								<td>
+									Doors:
+								</td>
+								<td>
+									@Html.DisplayFor(modelItem => item.Doors)
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Color:
+								</td>
+								<td>
+									@Html.DisplayFor(modelItem => item.Color)
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Category:
+								</td>
+								<td>
+									@Html.DisplayFor(modelItem => item.CategoryId)
+								</td>
+							</tr>	
+                            <tr>
+								<td>
+									Gear box:
+								</td>
+								<td>
+									@{
+                                    if (item.Automatic)
+                                    {
+										     @:Automatic
+									    }
+                                    else
+                                    {
+										     @:Manual
+									    }
+									}
+								</td>
+							</tr>										
+						</table>
+					</div>
+					<div class="detailsLargeLeft ">
+						<table>						
+							<tr>
+								<td>
+									License Id:
+								</td>
+								<td>
+								  @Html.DisplayFor(modelItem => item.Id)
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Engine Capacity:
+								</td>
+								<td>
+									@Html.DisplayFor(modelItem => item.EngineCapacity)
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Engine Type:
+								</td>
+								<td>
+									@Html.DisplayFor(modelItem => item.EngineType)
+								</td>
+							</tr>
+							
+							<tr>
+								<td>
+									Kilometer:
+								</td>
+								<td>
+									@Html.DisplayFor(modelItem => item.Kilometer)
+								</td>
+							</tr>						
+						</table>
+					</div>
+				</div>
+				<div class="clear">
+				</div>
+				<div class="bottomLargeDetails itemDetailsOpened">
+					<div class="LeftDescItem R">
+                        @if(User.IsInRole("Admin"))
+                        {
+                            <div class="price L" style="padding-left:5px">
+					             @Html.DisplayFor(modelItem => item.Price)  ₪ <span>Per Day</span>
+				            </div>
+                            <br>
+                            
+                            @Html.ActionLink("Rent", "Rent", new { id=item.Id }) @:|
+                            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) @:|
+                            @Html.ActionLink("Delete", "Delete", new { id=item.Id }) 
+			            }
+                        else
+                        {
+                            <div class="price L" style="padding-left:30px; padding-bottom:30px">
+					            @Html.DisplayFor(modelItem => item.Price)  ₪ <span>Per Day</span>
+                                @Html.ActionLink("Rent", "Rent", new { id=item.Id } , new { @class = "button-link" }) 
+                            </div>  
+                        }    
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>  
+     
+    index++;
+}
+</div>
+
+
+
+
+<script>
+    function moreDetails(index) {
+        /* '.' means we search for a class 
+         * Reduce the set of matched elements to the one at the specified index. 
+         * hide - Hide the matched elements.
+         * fadeIn - Display the matched elements by fading them to opaque
+         * */
+        $(".oneItem").eq(index).hide();
+        $(".LargeItem").eq(index).fadeIn();
+    }
+
+    function lessDetails(index) {
+        $(".LargeItem").eq(index).hide();
+        $(".oneItem").eq(index).fadeIn();
+    }
+</script>

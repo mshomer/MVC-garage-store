@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Category>
+
+<h2>Categories</h2>
+<ul id="categories">
+    @foreach (var category in Model)
+    {
+        <li>@Html.ActionLink(category.Name, 
+                "Index", "Vehicle", 
+                new { Id = category.Id }, null)
+        </li>
+    }
+</ul>

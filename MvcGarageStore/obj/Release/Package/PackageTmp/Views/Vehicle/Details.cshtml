@@ -1,0 +1,101 @@
+﻿@model MvcGarageStore.Models.Vehicle
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Vehicle</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Model)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Model)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Type)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Type)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Price)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Price)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.EngineType)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.EngineType)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.EngineCapacity)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.EngineCapacity)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Automatic)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Automatic)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ImageUrl)
+    </div>
+    <div class="display-field">
+         <img class="image" src="@Html.DisplayFor(model => model.ImageUrl)" 
+           alt="@Html.DisplayFor(model => model.Model) @Html.DisplayFor(model => model.Type)" />
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DateRelease)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DateRelease)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CategoryId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CategoryId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Kilometer)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Kilometer)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Color)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Color)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Doors)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Doors)
+    </div>
+
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "List")
+</p>
